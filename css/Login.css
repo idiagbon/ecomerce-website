@@ -1,0 +1,280 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif ;
+}
+
+
+body{
+    background: linear-gradient(95.15deg, #F2F6FF 13.98%, #FFFFFF 106.1%);
+}
+
+.heading{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2{
+    
+    font-size: 24px;
+}
+
+
+
+.web-title{
+    color: #232439;
+    cursor: pointer;
+    font-weight: bolder
+}
+
+
+.web-title:hover{
+    
+    background-color: white;
+	border-radius: 10px;
+    padding: 5px 10px;
+    font-weight: bolder;
+    color: #01AA71;
+}
+
+
+h6{
+    margin-top: 10px;   
+    font-size: 14px;
+    color: #6EC37F;
+}
+
+hr{
+    border-top: 4px solid #000000;
+    width: 10%;
+    margin-left: 10px;
+    border-end-start-radius: 80px;
+    border-start-end-radius: 80px;
+    border-start-start-radius: 80px;
+    border-end-end-radius: 80px;
+    
+}
+
+h1{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #6EC37F;
+}
+
+.login{
+    margin-top: 50px;
+}
+
+.form-control{
+    background: transparent;
+    border-color: 1px black;
+    border-radius: 30;
+    font: size 20px;
+    margin-bottom: -5px;
+}
+
+.eye{
+    float: right;
+    transform: translateY(-45px);
+    opacity: 0.6;
+}
+
+.form-text{
+    display: none;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.btn-primary{
+    
+    background: white;
+    border-color: white;
+    color: #6EC37F;
+    box-shadow: 10px 14px 16px rgba(112, 156, 118, 0.25);
+    border-radius: 25px;
+    width: 260px;
+    
+}
+
+hr.hr2{
+    border-top: 4px solid #000000;
+    width: 17%;
+    margin-left: 10px;
+    border-end-start-radius: 80px;
+    border-start-end-radius: 80px;
+    border-start-start-radius: 80px;
+    border-end-end-radius: 80px;
+
+}
+
+.sub{
+    font-size: 14px;
+    color: #949494;
+    margin-bottom: 20px;
+
+}
+
+.btn.google{
+    color: #000000;
+    border-radius:25px;
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.25);
+    height: 34px;
+    width: 280px;
+    margin-bottom: 12px;
+}
+
+.google{
+    width: 11px;
+    height: 11px;
+    margin-bottom: 1px;
+}
+
+.googleic{
+    padding-right: 10px;
+}
+
+.btn.facebook{
+    color: #ffffff;
+    background: #1a51b8;
+    border-radius:25px;
+    box-shadow: none;
+    height: 38px;
+    width: 284px;
+    margin-bottom: 18px;
+}
+
+.facebookic{
+    padding-right: 10px;
+}
+
+.box16{
+    background: linear-gradient(180deg, rgba(255,255,255,0.95)-27.09%, rgb(76,182,76,0.829)158.25%);
+}
+.text7{
+     font-weight: 700;
+     padding-top: 30px; 
+     color: #232439;    
+}
+.box19 a{
+    text-decoration: none;
+    color:  #10A36E;
+}
+.box20 a{
+    text-decoration: none;
+    color: #10A36E;
+}
+#copyright{
+    color: white;
+    opacity: 0.5;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.box21{
+    background-color: black;
+}
+
+.box22{
+    
+    display: flex;
+}
+.i-color{
+    color:black ;
+    font-size: 30px;
+    margin: 2px;
+}
+ #animation:hover{
+
+    position: relative;
+    top: -25px;
+    right: -15px;
+    width: 600px;
+    height: 100px;
+    z-index: 999;
+} 
+
+  @media(max-width:1000px) {
+    #animation:hover{
+        position: relative;
+        top: -25px;
+        right: -15px;
+        width: 300px;
+        height: 100px;
+       
+    }
+}  
+@media(max-width: 1000px) {
+    .toggle-but{
+        display: flex;
+    }
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar-links ul{
+        flex-direction: column;
+        width:100%
+    }
+    .navbar-links li{
+        text-align: center;
+        padding-left: 55px;
+    }
+    .navbar-links li a{
+        padding: .5rem; 
+        text-align: center;
+        padding-left: 55px;
+    }
+    .navbar-links.active{
+        display: flex;
+    }
+
+    .web-title{
+        margin: 0%;
+        padding-left: 30px;
+    }
+    .btn-dark{
+     margin-bottom: 20px;
+    }
+    .body{
+        font-weight: bold;
+       
+    }
+    .text{
+        font-size: 50px;
+    }
+    .text1{
+        font-size: 50;
+    }
+    .text2{
+       font-size: 35px;
+    }
+    .text3{
+       font-size: 35px;
+    }
+    .text4{
+      font-size: 20px ;
+      margin-bottom: 20px;
+    }
+    .intro{
+        text-align: between;
+    }
+    .text5{
+    font-size: 20px;
+    }
+    .text6{
+    font-size: 15px;
+    }
+    .text7{
+        font-size: 30px;
+    }
+    .box19 a{
+        font-size: 20px;
+    }
+    .box20 a{
+        font-size: 20px;
+    }
+}
